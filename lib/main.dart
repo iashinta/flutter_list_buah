@@ -53,9 +53,19 @@ class _MyHomePageState extends State<MyHomePage> {
     img: "assets/semangka.png",
   );
 
+  Items buah7 = new Items(
+    nama: "Rambutan",
+    img: "assets/rambutan.png",
+  );
+
+  Items buah8 = new Items(
+    nama: "Salak",
+    img: "assets/salak.png",
+  );
+
   @override
   Widget build(BuildContext context) {
-    List<Items> ListBuah = [buah1, buah2, buah3, buah4, buah5, buah6];
+    List<Items> ListBuah = [buah1, buah2, buah3, buah4, buah5, buah6, buah7, buah8];
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
